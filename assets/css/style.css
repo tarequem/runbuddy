@@ -1,0 +1,25 @@
+/* design for body*/
+body {
+    /* colour for all text */
+    color: #39a6b2;
+    /* two options of fonts depending on which the machine can use */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply design for header*/
+header {
+    padding: 20px 35px;
+    
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+header a{
+    
+}
