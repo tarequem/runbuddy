@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* design for body*/
@@ -36,7 +37,7 @@ header nav {
     float: right;
     margin: 7px 0;
 }
-
+/* adds space next to the block for inline */
 header nav ul li {
     display: inline;
 }
@@ -46,13 +47,13 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
-
+/* footer code very similar to header code. pay attention to what the elements do */
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
-/* adds space next to the block for inline */
+
 footer h2 {
     display: inline;
     color: #024e76;
@@ -64,6 +65,10 @@ footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
+}
+
+footer a {
+    color: #024e76
 }
 
 /* make sure to add, commit, and push after finishing the footer with a good comment*/
