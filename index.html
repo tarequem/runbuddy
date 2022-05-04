@@ -42,10 +42,41 @@
         </header>
 
        <!--hero/jumbotron-->
-       <section>
-
-       </section>
-
+        <section>
+            <div>
+                <h3>Getting Started Today!</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!--add form element-->
+            <form>
+                <!--for="name" means this label is for that id element-->
+                <label for="name">Enter full name:</label>
+                <!--name="name" means the for name refers to id name. then id="name" establishes the id name for CSS. The / at the end of the input tag is a self-closing tag for elements that dont contain content or child elements, self closing the opening tag.-->
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" email="email" id="email" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="text" placeholder="Phone Number" phone="phone" id="phone" />
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox" >
+                        I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <button type="submit">
+                    Get running!
+                </button>
+            </form>
+            </div>
+        </section>
+        <!---end hero-->
+        
        <!--"what we do" section-->
        <section>
            <h2>What We Do</h2>
@@ -93,4 +124,21 @@
                 </div>
             </div>
         </div>
+
+
+
+        <div>
+            <h2>Get Started Today!</h2>
+            <p>Fill out this form and one of our trainers will schedule a consult.</p>
+            <p>Enter full name:</p>
+            <input>
+            <p>Enter email address:</p>
+            <input>
+            <p>Enter a telephone number:</p>
+            <input>
+            <br/>
+            <button>Get running!</button>
+        </div>
+       </section>
+
 -->
