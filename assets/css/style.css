@@ -247,6 +247,34 @@ section {
     line-height: 1.3;
 }
 
+/* REACH OUT STULES START */
+
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+/* always include a class selector along inline element, so if i use another iframe there won't be a conflict */
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+
+}
+
+.contact-info div {
+    width: 400px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0 0 60px;
+    color: white;
+
+}
+
+
 /* make sure to add, commit, and push after finishing the footer with a good comment*/
 
 /* 
