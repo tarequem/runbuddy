@@ -1,0 +1,72 @@
+/* homepage hero */
+.hero {
+    background-position: bottom;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  /* secondary page hero */
+  .hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+    
+  }
+
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px solid #fce138;
+    padding: 0 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+  }
+  
+  .secondary-content {
+    width: 80%;
+    margin: 0 auto;
+    color: #024e76;
+  }
+  
+  .secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+  
+  .secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  
+  .secondary-content ul {
+    margin: 15px 20px;
+  }
+  
+  .secondary-content li {
+    color: #39a6b2;
+    margin: 10px 0;
+  }
+
+/* .hero {
+    margin: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: blue;
+
+    Make the border run wider than the text and give it some space by applying the following padding to its sides:
+
+top: 0
+
+right: 80px
+
+bottom: 15px
+
+left: 80px
+=     padding: 0 80px 15px 80px;
+}
