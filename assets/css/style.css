@@ -101,7 +101,7 @@ section {
     border: solid 3px #024e76;
     width: 40%;
     margin: 3.5%;
-    
+
 }
 
 .hero-form h3 {
@@ -171,6 +171,10 @@ section {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 
 }
 
@@ -191,6 +195,7 @@ section {
     font-size: 20px;
      /* add this alongside your other declarations */
      margin: 0 auto;
+     text-align: center;
 
 }
 
@@ -275,6 +280,10 @@ section {
 
 .text-right {
     text-align: right;
+}
+/* applies to everytime we use the flex-row class */
+.flex-row {
+    display: flex;
 }
 
 /* REACH OUT STULES START */
